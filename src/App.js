@@ -112,9 +112,6 @@ function App() {
             gameState[c][r + 1] == gameState[c][r + 2] &&
             gameState[c][r + 2] == gameState[c][r + 3]
           ) {
-            console.log("set winner in gameover", winner);
-            setWinner(currentPlayer);
-            setWinnerUI(true);
             return true;
           }
         }
