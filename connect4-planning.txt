@@ -1,0 +1,23 @@
+1) create board DONE
+- board container
+- 7 columns X 6 rows: empty arrays
+- column reverse so index 0 of arrays is at the bottom
+2) finding column for piece to be dropped DONE
+- addPiece function 
+- finding first index of null so pieces drop all the way in
+3) Alternate player state for 2 players
+- change background colours for each player
+4) Win conditions DONE
+~use of sliding windows~
+- horizontal 
+- vertical
+- diagonal
+- anti-diagonal
+5) Winner found
+- popup notification opens when there is a winner 
+- winning pieces light up 
+- game state resets when notification closes
+
+
+TODO IMPORTANT
+- initialize board cells as "null" then assign player on click

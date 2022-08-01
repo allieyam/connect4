@@ -1,0 +1,49 @@
+.active {
+  animation: 0.4s slide-out ease-out forwards;
+}
+
+.hide {
+  animation: 0.4s slide-in ease-in forwards;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  95% {
+    transform: translate3d(-530px, 0, 0);
+  }
+  98.5% {
+    transform: translate3d(-540px, 0, 0);
+  }
+  100% {
+    transform: translate3d(-550px, 0, 0);
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translate3d(-540px, 0, 0);
+  }
+  5% {
+    transform: translate3d(-530px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid blue;
+  background-color: #4b87e0;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 30px yellow;
+}

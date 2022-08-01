@@ -1,0 +1,34 @@
+.show {
+  animation: 0.4s moving-out ease-out forwards;
+}
+
+.noshow {
+  animation: 0.4s moving-in ease-in forwards;
+}
+
+@keyframes moving-out {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  95% {
+    transform: translate3d(530px, 0, 0);
+  }
+  98.5% {
+    transform: translate3d(540px, 0, 0);
+  }
+  100% {
+    transform: translate3d(550px, 0, 0);
+  }
+}
+@keyframes moving-in {
+  0% {
+    transform: translate3d(540px, 0, 0);
+  }
+  5% {
+    transform: translate3d(530px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
